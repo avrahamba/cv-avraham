@@ -1,0 +1,16 @@
+.projects-cmp {
+display: grid;
+grid-template-columns: 1fr 1fr;
+    img {
+        width: 100%;
+
+    }
+                    .container-img {
+        .tecnologys {
+            flex: 1;
+            li {
+                list-style-image: url('../assets/imgs/v-shape.svg');
+            }
+        }
+    }
+}

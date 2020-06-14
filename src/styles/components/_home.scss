@@ -1,0 +1,26 @@
+.home-cmp{
+    display: flex;
+    margin-bottom: 50px;
+    .txt{
+        max-width: 900px;
+        padding: 50px;
+        h1{
+            font-size: 50px;
+            text-align-last: left;
+        }
+        h2{
+            font-size: 40px;
+            text-align-last: left;
+        }
+        p{
+            font-size: 30px;
+            text-align-last: left;
+        }
+    }
+    img{
+        border-radius: 10000px;
+        height: 500px;
+        width: 500px;
+        align-self: center;
+    }
+}
