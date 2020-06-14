@@ -1,8 +1,13 @@
 .nav-bar{
+    position: fixed;
+    z-index: 1;
+    
     .link-ul{
+        height: 50px;
         display: flex;
     }
     .link-li{
+
         list-style: none;
         a{
             text-decoration: none;

@@ -13,16 +13,16 @@ export default {
     data() {
         return {
             projectsData: [{
-                    title: 'תא-שמע',
+                    title: 'Ta-Shma',
                     img: tashmaImg,
-                    link:'aa',
+                    link:'tashma',
                     tecnologyList: ['C#','WPF','sqlite','VSTO','PHP','SQL','OOP'],
-                    tagLine: 'מאגר מידע מודולרי, שתכננתי וממשתי בעצמי במשך כ-3 שנות עבודה'
+                    tagLine: 'A modular database, which I designed and implemented myself for about 3 years'
                 },
                 {
                     title: 'Jello',
                     img: jello,
-                    link:'https://jello-app.herokuapp.com/5e819edc67a5a42c344b3e61',
+                    link:'https://jello-app.herokuapp.com',
                     tecnologyList: ['VUE','SCSS','NODE.JS','mongoose'],
                     tagLine: 'Realization of Trello'
                 },

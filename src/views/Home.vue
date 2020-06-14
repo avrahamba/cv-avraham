@@ -1,6 +1,6 @@
 <template>
 <section class="home">
-<nav-bar></nav-bar>
+    <nav-bar class="container"></nav-bar>
     <home-cmp id="home" class="container"></home-cmp>
     <div class="about container" id="about">
         <what-offer></what-offer>
@@ -21,6 +21,19 @@ import whatOffer from '../components/what-offer';
 import navBar from '../components/nav-bar';
 export default {
     name: 'Home',
+    data() {
+        return {
+            scrollPosition:null,
+        }
+    },
+    methods: {
+        updateScroll(){
+this.scrollPosition = window.scrollY;
+},
+mounted() {
+    window.addEventListener('scroll',this.updateScroll);
+},
+    },
     components: {
         homeCmp,
         projectsCmp,

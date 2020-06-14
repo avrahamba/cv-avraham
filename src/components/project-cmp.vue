@@ -2,7 +2,7 @@
 <section class="project-cmp">
     <a :href="projectData.link">
         <img :src="projectData.img">
-        <div class="container">
+        <div class="container-img">
             <h3>{{projectData.title}}</h3>
             <p>{{projectData.tagLine}}</p>
             <ul class="tecnologys">
