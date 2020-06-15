@@ -4,7 +4,7 @@
         About Me
     </h3>
     <p>
-        A programmer from Tel Aviv. Passionate about learning and building new things,
+        A programmer from Israel. Passionate about learning and building new things,
         <br>
         I specialize in creating beautiful pixel-perfect single page applications and getting things done.
     </p>

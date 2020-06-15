@@ -1,0 +1,16 @@
+.about-cmp {
+    text-align: center;
+    .imgs {
+        background: $clr3;
+        display: flex;
+        justify-content: space-around;
+        padding: 25px;
+        img {
+            width: 100px;
+            margin: 20px;
+        }
+    }
+    p {
+        padding: 0 50px 50px 50px;
+    }
+}

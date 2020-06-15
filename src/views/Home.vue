@@ -1,6 +1,6 @@
 <template>
 <section class="home">
-    <nav-bar class="container"></nav-bar>
+    <nav-bar :class="scroll"></nav-bar>
     <home-cmp id="home" class="container"></home-cmp>
     <div class="about container" id="about">
         <what-offer></what-offer>
@@ -8,6 +8,7 @@
     </div>
     <projects-cmp id="projects" class="container"></projects-cmp>
     <contact-cmp id="contact" class="container"></contact-cmp>
+    <footer-cmp></footer-cmp>
 </section>
 </template>
 
@@ -19,20 +20,34 @@ import homeCmp from '../components/home-cmp';
 import projectsCmp from '../components/projects-cmp';
 import whatOffer from '../components/what-offer';
 import navBar from '../components/nav-bar';
+import footerCmp from '../components/footer-cmp';
 export default {
     name: 'Home',
     data() {
         return {
-            scrollPosition:null,
+            scrollPosition: false,
         }
     },
     methods: {
-        updateScroll(){
-this.scrollPosition = window.scrollY;
-},
-mounted() {
-    window.addEventListener('scroll',this.updateScroll);
-},
+        handleScroll() {
+            this.scrollPosition = !!window.scrollY
+        },
+    },
+    created() {
+        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener("hashchange", function () {
+            window.scrollTo(window.scrollX, window.scrollY - 105);
+        });
+    },
+    destroyed() {
+        window.removeEventListener('scroll', this.handleScroll);
+    },
+    computed: {
+        scroll() {
+            return {
+                scroll: this.scrollPosition,
+            }
+        }
     },
     components: {
         homeCmp,
@@ -40,7 +55,8 @@ mounted() {
         aboutMe,
         contactCmp,
         whatOffer,
-        navBar
+        navBar,
+        footerCmp
     }
 }
 </script>
