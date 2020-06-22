@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv-avraham/404.html"
   },
   {
-    "revision": "7e6d4a978cd604af04ef",
+    "revision": "75dd7e2afafc31fa9e78",
     "url": "/cv-avraham/css/app.d159e2ce.css"
   },
   {
@@ -124,7 +124,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv-avraham/img/write.ab47d415.svg"
   },
   {
-    "revision": "249178fea745b4d812d5407cb8737ac0",
+    "revision": "fda0a53f4db6051250b2c729cb3f45d9",
     "url": "/cv-avraham/index.html"
   },
   {
@@ -132,8 +132,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv-avraham/js/about.e42e8a7c.js"
   },
   {
-    "revision": "7e6d4a978cd604af04ef",
-    "url": "/cv-avraham/js/app.7fa783d9.js"
+    "revision": "75dd7e2afafc31fa9e78",
+    "url": "/cv-avraham/js/app.c273fea8.js"
   },
   {
     "revision": "55a524bdbffe73dcbc42",
