@@ -11,7 +11,7 @@ Vue.use(VueRouter)
     component: Home
   },
   {
-    path: '/tashma',
+    path: '/cv-avraham/tashma',
     name: 'tashma',
     component: () => import(/* webpackChunkName: "about" */ '../views/tashma.vue')
   }

@@ -1,6 +1,9 @@
 <template>
 <section class="projects-cmp">
-    <project-cmp v-for="(projectData) in projectsData" :key="projectData.title" :projectData="projectData"></project-cmp>
+    <h2>EXAMPLE PROJECTS</h2>
+    <div class="projects">
+        <project-cmp v-for="(projectData) in projectsData" :key="projectData.title" :projectData="projectData"></project-cmp>
+    </div>
 </section>
 </template>
 
@@ -18,35 +21,35 @@ export default {
             projectsData: [{
                     title: 'Ta-Shma',
                     img: tashmaImg,
-                    link:'tashma',
-                    tecnologyList: ['C#','WPF','sqlite','VSTO','PHP','SQL','OOP'],
-                    tagLine: 'A modular database, which I designed and implemented myself for about 3 years'
+                    link: 'tashma',
+                    tecnologyList: ['C#', 'WPF', 'sqlite', 'VSTO', 'PHP', 'SQL', 'OOP'],
+                    tagLine: 'A modular database, which I designed and implemented myself'
                 },
                 {
                     title: 'Jello',
                     img: jello,
-                    link:'https://jello-app.herokuapp.com',
-                    tecnologyList: ['VUE','SCSS','NODE.JS','mongoose'],
+                    link: 'https://jello-app.herokuapp.com',
+                    tecnologyList: ['VUE', 'SCSS', 'NODE.JS', 'mongoose'],
                     tagLine: 'Realization of Trello'
                 },
                 {
                     title: 'Appsus',
                     img: appsus,
-                    link:'https://avrahamba.github.io/appsus/',
-                    tecnologyList: ['VUE','SCSS', 'API'],
+                    link: 'https://avrahamba.github.io/appsus/',
+                    tecnologyList: ['VUE', 'SCSS', 'API'],
                     tagLine: 'Realization of Google Keep and Front-End Email'
                 },
                 {
                     title: 'Meme-generator',
                     img: memegen,
-                    link:'https://avrahamba.github.io/Meme-generator/',
-                    tecnologyList: ['HTML', 'CSS', 'Vanilla JavaScript','Canvas'],
+                    link: 'https://avrahamba.github.io/Meme-generator/',
+                    tecnologyList: ['HTML', 'CSS', 'Vanilla JavaScript', 'Canvas'],
                 },
                 {
                     title: 'Misterbitcoin',
                     img: misterbitcoin,
-                    link:'https://avrahamba.github.io/mister-bitcoin-angular/',
-                    tecnologyList: ['React/Angular','SCSS','PWA'],
+                    link: 'https://avrahamba.github.io/mister-bitcoin-angular/',
+                    tecnologyList: ['React/Angular', 'SCSS', 'PWA'],
                     tagLine: 'Front-End Bitcoin wallet'
                 },
             ]

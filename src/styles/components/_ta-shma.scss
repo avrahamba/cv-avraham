@@ -1,0 +1,40 @@
+.ta-shma {
+    margin: 0;
+    text-align: center;
+    .container {
+        margin-bottom: 0;
+        h1 {
+            font-family: KronaOne;
+            font-size: 50px;
+            margin: 0;
+            padding-top: 100px;
+        }
+        h2 {
+            font-family: KronaOne;
+            font-size: 40px;
+            padding-top: 50px;
+        }
+        .imgs {
+            //background: $clr3;
+            display: flex;
+            justify-content: space-around;
+            padding: 25px;
+            img {
+                width: 100px;
+                margin: 20px;
+            }
+        }
+        p {
+            font-size: 30px;
+            padding: 0 50px 50px 50px;
+        }
+        .download {
+            color: $clr2;
+            background-color: $clr3;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+    }
+}

@@ -1,7 +1,7 @@
 <template>
 <section class="contact-cmp">
     <h3>
-        Contact Me
+        CONTACT ME
     </h3>
     <form @submit.prevent="onSubmit" ref="contactForm" class="contact-form">
         <input class="name" type="text" placeholder="Name" name="name" v-model="name">

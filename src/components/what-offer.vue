@@ -1,6 +1,6 @@
 <template>
 <section class="what-offer">
-    <h3>What I offer</h3>
+    <h3>WHAT I OFFER</h3>
     <div class="offer">
         <img src="../assets/imgs/icons/code.svg">
         <div class="txt">

@@ -1,10 +1,10 @@
 <template>
 <section class="about-me">
     <h3>
-        About Me
+        ABOUT ME
     </h3>
     <p>
-        A programmer from Israel. Passionate about learning and building new things,
+        Passionate about learning and building new things,
         <br>
         I specialize in creating beautiful pixel-perfect single page applications and getting things done.
     </p>

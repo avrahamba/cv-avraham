@@ -1,7 +1,8 @@
 .contact-cmp {
     h3  {
         text-align: center;
-    }
+        font-family: KronaOne;
+      }
     .contact-form {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -13,6 +14,7 @@
             border:0;
             font-family:Lato;
             font-size: rem(20px);
+            border-radius: 7px;
         }
         .name {
             grid-column: 1/3;
@@ -28,6 +30,7 @@
             padding: 15px;
             font-size: rem(20px);
             font-family:Lato;
+            border-radius: 7px;
            }
         button {
             grid-column: 2/4;
