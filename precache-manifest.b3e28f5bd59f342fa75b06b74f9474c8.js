@@ -4,8 +4,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv-avraham/404.html"
   },
   {
-    "revision": "e58b80676d19eb7c4041",
-    "url": "/cv-avraham/css/app.ff64352a.css"
+    "revision": "e64f3ec41ffc78c8221d",
+    "url": "/cv-avraham/css/app.d159e2ce.css"
   },
   {
     "revision": "c1c92d0c804d46cb62814e7389725082",
@@ -124,16 +124,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv-avraham/img/write.ab47d415.svg"
   },
   {
-    "revision": "1627b6157b9760b4027ff6d6091fcbf4",
+    "revision": "8a04399a996a271e3707e883966c1d11",
     "url": "/cv-avraham/index.html"
   },
   {
-    "revision": "070a97243e519159b8da",
-    "url": "/cv-avraham/js/about.c4042e39.js"
+    "revision": "ee2fa84a3b4572715c70",
+    "url": "/cv-avraham/js/about.9e2b85ff.js"
   },
   {
-    "revision": "e58b80676d19eb7c4041",
-    "url": "/cv-avraham/js/app.4fabc931.js"
+    "revision": "e64f3ec41ffc78c8221d",
+    "url": "/cv-avraham/js/app.5bf1cc09.js"
   },
   {
     "revision": "55a524bdbffe73dcbc42",
