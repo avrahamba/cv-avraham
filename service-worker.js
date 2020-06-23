@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cv-avraham/precache-manifest.56e3af9c006cf8d66948dfa57d0018cc.js"
+  "/cv-avraham/precache-manifest.f9592448c6a47978878abce3081940ff.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "cv-avraham"});
